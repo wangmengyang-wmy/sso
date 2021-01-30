@@ -9,6 +9,7 @@
 <body>
 登陆成功1
 <%=request.getRemoteUser()%>
-<a href="http://localhost:8080/cas/logout?service=http://www.baidu.com">退出登录</a>
+<%--<a href="http://localhost:8080/cas/logout?service=http://www.baidu.com">退出登录</a>--%>
+<a href="http://localhost:8080/cas/logout">退出登录</a>
 </body>
 </html>
